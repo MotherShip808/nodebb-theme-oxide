@@ -172,7 +172,20 @@
 			</div>
 		</div>
 		<!-- ENDIF aboutme -->
-
+		
+		<div class="profile-card">
+			<h2 class="card-title">
+				Community Links
+			</h2>
+			
+			<div class="data-item" component="steam-sso:steamid">
+				{steam-sso:steamidParsed}
+			</div>
+			<div class="data-item" component="steam-sso:profile">
+				{steam-sso:profileParsed}
+			</div>
+		</div>
+		
 		<div widget-area="sidebar">
 			<!-- BEGIN widgets.sidebar -->
 			{{widgets.sidebar.html}}
